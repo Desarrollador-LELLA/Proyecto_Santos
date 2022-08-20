@@ -8,6 +8,7 @@ import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
+
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
@@ -16,11 +17,12 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@CrossOrigin (origins = "http://localhost:4200")
+@CrossOrigin (origins = "*")
 public class PersonaController {
     @Autowired IPersonaService ipersonaService;
     
-    @GetMapping("personas/traer")
+    @GetMapping("persona/traer")
+    @CrossOrigin (origins = "*")
     public List<Persona> getPersona(){
         return ipersonaService.getPersona();
     }
@@ -55,7 +57,8 @@ public class PersonaController {
         return persona;
     }
     
-    @GetMapping("personas/traer/perfil")
+    @GetMapping ("personas/traer/perfil")
+    @CrossOrigin (origins = "*")
     public Persona findPersona(){
         return ipersonaService.findPersona((long)1);
     }
