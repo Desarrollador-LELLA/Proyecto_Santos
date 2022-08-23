@@ -4,9 +4,9 @@ import { Observable } from "rxjs";
 
 @Injectable()
 export class DataService {
-    constructor (private http: HttpClient) {}
+    constructor (private http:HttpClient) {}
 
     getAll(): Observable<any>{
-        return this.http.get<any>('/login')
+        return this.http.get<any>('https://frontend-2002.web.app/login')
     }
 }

@@ -1,6 +1,6 @@
 {
-    "/api/*":{
-        "target": "http://localhost:4200",
+    "/*":{
+        "target": "https://frontend-2002.web.app",
         "secure": false,
         "logLevel": "debug"
     }

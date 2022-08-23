@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "mgbfrontend"
-  }
+    "default": "frontend-2002"
+  },
+  "targets": {},
+  "etags": {}
 }

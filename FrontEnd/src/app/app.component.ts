@@ -9,11 +9,10 @@ import { DataService } from './data. service';
 })
 export class AppComponent {
   title = 'Proyecto_Santos';
-  constructor (private dataSvc: DataService){}
+  constructor (private dataSvc: DataService) {}
   ngOnInit(){
-    this.dataSvc.getAll().subscribe(res => {
-      console.log('Res ', res );
-
-    })
+    this.dataSvc.getAll().subscribe( res => {
+      console.log('Res ', res);
+    });
   }
 }
