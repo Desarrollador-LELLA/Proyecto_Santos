@@ -1,0 +1,72 @@
+[debug] [2022-08-30T00:36:42.166Z] ----------------------------------------------------------------------
+[debug] [2022-08-30T00:36:42.169Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Usuario\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-08-30T00:36:42.170Z] CLI Version:   11.8.0
+[debug] [2022-08-30T00:36:42.170Z] Platform:      win32
+[debug] [2022-08-30T00:36:42.171Z] Node Version:  v18.7.0
+[debug] [2022-08-30T00:36:42.180Z] Time:          Mon Aug 29 2022 21:36:42 GMT-0300 (hora estándar de Argentina)
+[debug] [2022-08-30T00:36:42.181Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-30T00:36:42.279Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-30T00:36:42.280Z] > authorizing via signed-in user (candelasantos1d@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Usuario\Desktop\Argentina Programa\Proyecto Final\Proyecto_Santos\Proyecto_Santos\FrontEnd
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-08-30T00:36:53.143Z] Using project from CLI flag: frontend-2002
+[debug] [2022-08-30T00:36:53.148Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/frontend-2002 [none]
+[debug] [2022-08-30T00:36:54.212Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/frontend-2002 200
+[debug] [2022-08-30T00:36:54.212Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/frontend-2002 {"projectId":"frontend-2002","projectNumber":"663288669589","displayName":"frontend","name":"projects/frontend-2002","resources":{"hostingSite":"frontend-2002"},"state":"ACTIVE","etag":"1_8c914752-720a-454c-ad61-92cbd969679e"}
+[info] i  Using project frontend-2002 (frontend) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2022-08-30T00:42:38.186Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-08-30T00:42:39.207Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2022-08-30T00:42:39.207Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.9.3","browserURL":"https://www.gstatic.com/firebasejs/9.9.3/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.9.3/firebase.tgz"},"live":{"version":"9.9","browserURL":"https://www.gstatic.com/firebasejs/live/9.9/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.9/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.9.3/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.9.3/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.9.3/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.9.3/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.9.3/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.9.3/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.9.3/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.9.3/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.9.3/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/9.9.3/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/9.9.3/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.9.3/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.9.3/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.9.3/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.9.3/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.9.3/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.9.3/firebase-firestore.memory.js"}}
+[info] i  Skipping write of dist/proyecto-santos/index.html 
+[info] 
+[info] i  Detected a .git folder at C:\Users\Usuario\Desktop\Argentina Programa\Proyecto Final\Proyecto_Santos\Proyecto_Santos 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=9927579&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2022-08-30T00:43:03.435Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2022-08-30T00:43:03.435Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2022-08-30T00:43:03.846Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2022-08-30T00:43:03.847Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2022-08-30T00:43:03.872Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2022-08-30T00:43:04.352Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2022-08-30T00:43:04.353Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"candesantos","id":99463026,"node_id":"U_kgDOBe2vcg","avatar_url":"https://avatars.githubusercontent.com/u/99463026?v=4","gravatar_id":"","url":"https://api.github.com/users/candesantos","html_url":"https://github.com/candesantos","followers_url":"https://api.github.com/users/candesantos/followers","following_url":"https://api.github.com/users/candesantos/following{/other_user}","gists_url":"https://api.github.com/users/candesantos/gists{/gist_id}","starred_url":"https://api.github.com/users/candesantos/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/candesantos/subscriptions","organizations_url":"https://api.github.com/users/candesantos/orgs","repos_url":"https://api.github.com/users/candesantos/repos","events_url":"https://api.github.com/users/candesantos/events{/privacy}","received_events_url":"https://api.github.com/users/candesantos/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":3,"public_gists":0,"followers":0,"following":0,"created_at":"2022-02-11T05:00:21Z","updated_at":"2022-08-27T14:46:42Z","private_gists":0,"total_private_repos":1,"owned_private_repos":1,"disk_usage":2641,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as candesantos 
+[info] 
+[debug] [2022-08-30T00:44:36.067Z] Error: kill ENOSYS
+    at process.kill (node:internal/process/per_thread:221:13)
+    at process.listener (C:\Users\Usuario\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\signal-exit\index.js:95:15)
+    at process.emit (node:events:513:28)
+[error] 
+[error] Error: An unexpected error has occurred.

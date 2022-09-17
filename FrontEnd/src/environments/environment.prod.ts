@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  URL: 'https://bkdpruebaa.herokuapp.com/'
+  URL: 'https://candelasantos.herokuapp.com/'
 };

@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.portfolio.mgb.Controller;
 
 import com.portfolio.mgb.Dto.dtoEducacion;
@@ -26,7 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/educacion")
-@CrossOrigin(origins = "https://frontend-2002.web.app/")
+@CrossOrigin(origins = "https://frontend-2002.web.app")
 public class CEducacion {
     @Autowired
     Seducacion sEducacion;
